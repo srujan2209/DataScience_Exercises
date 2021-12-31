@@ -1,0 +1,20 @@
+C:\Users\CMS>psql -u postgres
+psql: illegal option -- u
+Try "psql --help" for more information.
+
+C:\Users\CMS>psql -U postgres
+Password for user postgres:
+psql (14.1)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=# /dt
+postgres-# \dt
+Did not find any relations.
+postgres-# \du
+                                   List of roles
+ Role name |                         Attributes                         | Member of
+-----------+------------------------------------------------------------+-----------
+ postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
